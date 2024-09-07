@@ -81,7 +81,7 @@ await fetch("https://api.openai.com/v1/chat/completions", {
   return (
     <>
       <div className='App'>
-      <div style={{position:"relative", height:"600px", width:"700px"}}>
+      <div style={{position:"relative"}}>
         <MainContainer>
         <ChatContainer>
         <MessageList
